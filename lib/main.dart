@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
     try {
       Connection connection = Connection.appleHealth;
       var isInitSuccessful = await TryTerraDataBrokerService()
-          .initTerra('zea3goLuy3e37MDyi87HX25BobC2');
+          .initTerra('Y7sAgMDJAVfq560PwAgmIqi3X8C2');
       var connectionDetails =
           await TryTerraDataBrokerService().initConnection(connection);
       if (isInitSuccessful &&

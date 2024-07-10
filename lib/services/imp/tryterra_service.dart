@@ -9,8 +9,8 @@ import '../../models/authtoken_response.dart';
 import '../dao/tryterra_service_dao.dart';
 
 class TryTerraDataBrokerService extends TryTerraServiceDAO {
-  final String apikey = '21Em2NHzUD82erKyNqpHEmjY_KAA0l25';
-  final String dev_id = 'alyfinc-prod-g9yDVeYffm';
+  final String apikey = 'gFB0_wTTwjIZ_iKgPvCeNqbt-7sppH17';
+  final String dev_id = 'alyfinc-testing-2Cr237Oqov';
   final String redirectUrl = 'https://www.google.co.in/';
 
   @override
