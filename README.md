@@ -1,16 +1,26 @@
 # tryterra_ios_crash
 
-A new Flutter project.
+This Flutter app demonstrates the issue we are facing while authorizing Apple HealthKit using terra sdk and retrieve historical health data. Follow the steps below to run the project and reproduce the issue.
 
-## Getting Started
+## Steps to Run the Flutter Project
 
-This project is a starting point for a Flutter application.
+1. **Clone the Repository**:
 
-A few resources to get you started if this is your first Flutter project:
+2. **Install Dependencies**:
+   ```sh
+   flutter pub get
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. **Run the App**:
+   ```sh
+   flutter run
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Using the App
+
+1. **Authorize Apple Health**:
+   - On the home screen, you will see a button labeled **"Authorize Apple Health"**.
+   - Please click on that button to initiate the authorization process for Apple HealthKit.
+
+2. **App Crash**:
+   - After a few seconds, the app crashes.
