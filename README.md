@@ -1,6 +1,6 @@
 # tryterra_ios_crash
 
-This Flutter app demonstrates the issue we are facing while authorizing Apple HealthKit using terra sdk and retrieve historical health data. Follow the steps below to run the project and reproduce the issue.
+This Flutter app demonstrates the issue we are facing while authorizing Apple HealthKit with list of scopes using terra sdk and retrieve historical health data. Follow the steps below to run the project and reproduce the issue.
 
 ## Prerequisites
 
